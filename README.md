@@ -1,4 +1,4 @@
-Below is a **beginner-friendly Azure Artifacts hands-on lab**. We’ll use a **Universal Package** because it’s the easiest package type for demonstrating publish, consume, versions, pipelines, delete, and recovery.
+**Azure Artifacts hands-on lab**. We’ll use a **Universal Package** because it’s the easiest package type for demonstrating publish, consume, versions, pipelines, delete, and recovery.
 
 ### Lab Details
 
