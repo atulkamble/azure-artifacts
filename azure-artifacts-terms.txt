@@ -1,0 +1,15 @@
+Azure Artifacts - Terms and Definitions
+
+Azure Artifacts - Azure DevOps package management service. Feed -
+Central repository used to store and organize packages. Universal
+Package - Package type for files, scripts, binaries, and general
+content. Private Feed - Feed accessible only to authorized users. Feed
+Reader - Can download packages. Feed Publisher - Can publish packages.
+Feed Owner - Can fully manage and delete packages. Upstream Source -
+External package source that a feed can consume/cache from. Package
+Version - Unique release number such as 1.0.0 or 1.0.1. @Local - Default
+view containing packages available in the base feed. @Prerelease - View
+commonly used for versions under validation. @Release - View commonly
+used for approved/released versions. UniversalPackages@0 - Azure
+Pipelines task used to publish/download Universal Packages. Recycle
+Bin - Area used to restore deleted package versions.

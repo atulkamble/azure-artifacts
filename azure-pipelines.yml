@@ -1,0 +1,24 @@
+trigger:
+- main
+
+pool:
+  vmImage: ubuntu-latest
+
+steps:
+- task: CopyFiles@2
+  displayName: Prepare Package
+  inputs:
+    SourceFolder: '$(Build.SourcesDirectory)/package'
+    Contents: '**'
+    TargetFolder: '$(Build.ArtifactStagingDirectory)'
+
+- task: UniversalPackages@0
+  displayName: Publish Universal Package
+  inputs:
+    command: publish
+    publishDirectory: '$(Build.ArtifactStagingDirectory)'
+    vstsFeedPublish: 'project/newfeed'
+    vstsFeedPackagePublish: 'cloudnautic-tools'
+    versionOption: custom
+    versionPublish: '1.0.$(Build.BuildId)'
+    packagePublishDescription: 'Published using Azure Pipeline'

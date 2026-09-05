@@ -1,0 +1,526 @@
+{
+  "tldrawFileFormatVersion": 1,
+  "schema": {
+    "schemaVersion": 2,
+    "sequences": {}
+  },
+  "records": [
+    {
+      "id": "document:document",
+      "typeName": "document",
+      "name": "Azure Artifacts Training Whiteboard",
+      "meta": {}
+    },
+    {
+      "id": "page:page",
+      "typeName": "page",
+      "name": "Azure Artifacts",
+      "index": "a1",
+      "meta": {}
+    },
+    {
+      "id": "shape:6f4caa960be7",
+      "typeName": "shape",
+      "x": 80,
+      "y": 80,
+      "rotation": 0,
+      "index": "a1",
+      "parentId": "page:page",
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {},
+      "type": "text",
+      "props": {
+        "color": "black",
+        "size": "m",
+        "w": 330,
+        "font": "draw",
+        "textAlign": "start",
+        "autoSize": false,
+        "scale": 1,
+        "richText": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Azure Artifacts\\nAzure DevOps package management service."
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "shape:ee56168f9017",
+      "typeName": "shape",
+      "x": 460,
+      "y": 80,
+      "rotation": 0,
+      "index": "a2",
+      "parentId": "page:page",
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {},
+      "type": "text",
+      "props": {
+        "color": "black",
+        "size": "m",
+        "w": 330,
+        "font": "draw",
+        "textAlign": "start",
+        "autoSize": false,
+        "scale": 1,
+        "richText": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Feed\\nCentral repository used to store and organize packages."
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "shape:5edcc535b072",
+      "typeName": "shape",
+      "x": 840,
+      "y": 80,
+      "rotation": 0,
+      "index": "a3",
+      "parentId": "page:page",
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {},
+      "type": "text",
+      "props": {
+        "color": "black",
+        "size": "m",
+        "w": 330,
+        "font": "draw",
+        "textAlign": "start",
+        "autoSize": false,
+        "scale": 1,
+        "richText": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Universal Package\\nPackage type for files, scripts, binaries, and general content."
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "shape:ccafac2bdddd",
+      "typeName": "shape",
+      "x": 80,
+      "y": 230,
+      "rotation": 0,
+      "index": "a4",
+      "parentId": "page:page",
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {},
+      "type": "text",
+      "props": {
+        "color": "black",
+        "size": "m",
+        "w": 330,
+        "font": "draw",
+        "textAlign": "start",
+        "autoSize": false,
+        "scale": 1,
+        "richText": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Private Feed\\nFeed accessible only to authorized users."
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "shape:97c697113c3a",
+      "typeName": "shape",
+      "x": 460,
+      "y": 230,
+      "rotation": 0,
+      "index": "a5",
+      "parentId": "page:page",
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {},
+      "type": "text",
+      "props": {
+        "color": "black",
+        "size": "m",
+        "w": 330,
+        "font": "draw",
+        "textAlign": "start",
+        "autoSize": false,
+        "scale": 1,
+        "richText": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Feed Reader\\nCan download packages."
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "shape:f5488a58c687",
+      "typeName": "shape",
+      "x": 840,
+      "y": 230,
+      "rotation": 0,
+      "index": "a6",
+      "parentId": "page:page",
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {},
+      "type": "text",
+      "props": {
+        "color": "black",
+        "size": "m",
+        "w": 330,
+        "font": "draw",
+        "textAlign": "start",
+        "autoSize": false,
+        "scale": 1,
+        "richText": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Feed Publisher\\nCan publish packages."
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "shape:3c91f8effda6",
+      "typeName": "shape",
+      "x": 80,
+      "y": 380,
+      "rotation": 0,
+      "index": "a7",
+      "parentId": "page:page",
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {},
+      "type": "text",
+      "props": {
+        "color": "black",
+        "size": "m",
+        "w": 330,
+        "font": "draw",
+        "textAlign": "start",
+        "autoSize": false,
+        "scale": 1,
+        "richText": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Feed Owner\\nCan fully manage and delete packages."
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "shape:3494fd0790ac",
+      "typeName": "shape",
+      "x": 460,
+      "y": 380,
+      "rotation": 0,
+      "index": "a8",
+      "parentId": "page:page",
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {},
+      "type": "text",
+      "props": {
+        "color": "black",
+        "size": "m",
+        "w": 330,
+        "font": "draw",
+        "textAlign": "start",
+        "autoSize": false,
+        "scale": 1,
+        "richText": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Upstream Source\\nExternal package source that a feed can consume/cache from."
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "shape:81f6b084db44",
+      "typeName": "shape",
+      "x": 840,
+      "y": 380,
+      "rotation": 0,
+      "index": "a9",
+      "parentId": "page:page",
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {},
+      "type": "text",
+      "props": {
+        "color": "black",
+        "size": "m",
+        "w": 330,
+        "font": "draw",
+        "textAlign": "start",
+        "autoSize": false,
+        "scale": 1,
+        "richText": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Package Version\\nUnique release number such as 1.0.0 or 1.0.1."
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "shape:5488c4e0963b",
+      "typeName": "shape",
+      "x": 80,
+      "y": 530,
+      "rotation": 0,
+      "index": "a10",
+      "parentId": "page:page",
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {},
+      "type": "text",
+      "props": {
+        "color": "black",
+        "size": "m",
+        "w": 330,
+        "font": "draw",
+        "textAlign": "start",
+        "autoSize": false,
+        "scale": 1,
+        "richText": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "@Local\\nDefault view containing packages available in the base feed."
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "shape:85a867b4b63b",
+      "typeName": "shape",
+      "x": 460,
+      "y": 530,
+      "rotation": 0,
+      "index": "a11",
+      "parentId": "page:page",
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {},
+      "type": "text",
+      "props": {
+        "color": "black",
+        "size": "m",
+        "w": 330,
+        "font": "draw",
+        "textAlign": "start",
+        "autoSize": false,
+        "scale": 1,
+        "richText": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "@Prerelease\\nView commonly used for versions under validation."
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "shape:2ce04ce4b979",
+      "typeName": "shape",
+      "x": 840,
+      "y": 530,
+      "rotation": 0,
+      "index": "a12",
+      "parentId": "page:page",
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {},
+      "type": "text",
+      "props": {
+        "color": "black",
+        "size": "m",
+        "w": 330,
+        "font": "draw",
+        "textAlign": "start",
+        "autoSize": false,
+        "scale": 1,
+        "richText": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "@Release\\nView commonly used for approved/released versions."
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "shape:4d4e2f47909d",
+      "typeName": "shape",
+      "x": 80,
+      "y": 680,
+      "rotation": 0,
+      "index": "a13",
+      "parentId": "page:page",
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {},
+      "type": "text",
+      "props": {
+        "color": "black",
+        "size": "m",
+        "w": 330,
+        "font": "draw",
+        "textAlign": "start",
+        "autoSize": false,
+        "scale": 1,
+        "richText": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "UniversalPackages@0\\nAzure Pipelines task used to publish/download Universal Packages."
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "shape:7c8eebfb8b7b",
+      "typeName": "shape",
+      "x": 460,
+      "y": 680,
+      "rotation": 0,
+      "index": "a14",
+      "parentId": "page:page",
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {},
+      "type": "text",
+      "props": {
+        "color": "black",
+        "size": "m",
+        "w": 330,
+        "font": "draw",
+        "textAlign": "start",
+        "autoSize": false,
+        "scale": 1,
+        "richText": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Recycle Bin\\nArea used to restore deleted package versions."
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

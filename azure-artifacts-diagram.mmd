@@ -1,0 +1,11 @@
+flowchart LR
+    A[Developer / Git] --> B[Azure Pipeline]
+    B --> C[Azure Artifacts Feed: newfeed]
+    C --> D[cloudnautic-tools 1.0.x]
+    C --> E[Views: @Local / @Prerelease / @Release]
+    F[Upstream Sources] --> C
+    G[npm / NuGet / PyPI / Maven] --> F
+    C --> H[Consume / Download Package]
+    D --> I[Delete]
+    I --> J[Recycle Bin]
+    J --> C

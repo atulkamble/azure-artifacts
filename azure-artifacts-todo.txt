@@ -1,0 +1,20 @@
+Azure Artifacts - To-Do List
+
+1.  Open Azure DevOps project and go to Artifacts.
+2.  Create project-scoped feed: newfeed.
+3.  Review package types: NuGet, npm, Maven, Python, Cargo, Universal.
+4.  Configure feed permissions.
+5.  Review private feed access.
+6.  Enable/review upstream sources.
+7.  Create Universal Package files.
+8.  Publish cloudnautic-tools version 1.0.0.
+9.  Verify package in the feed.
+10. Download and run the package.
+11. Modify files and publish version 1.0.1.
+12. Review semantic versioning.
+13. Promote a version to @Prerelease and @Release.
+14. Create an Azure Pipeline to publish the package.
+15. Create/use a pipeline to download the package.
+16. Verify Build Service has Feed Publisher permission.
+17. Delete a package version.
+18. Open Recycle Bin and restore the package.
