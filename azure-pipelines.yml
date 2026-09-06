@@ -27,8 +27,8 @@ steps:
     displayName: Download Universal Package
     inputs:
       command: download
+      feedsToUse: internal
+      vstsFeed: "project/newfeed"
+      vstsFeedPackage: "cloudnautic-tools"
+      vstsPackageVersion: "*"
       downloadDirectory: "$(Build.ArtifactStagingDirectory)/download"
-      vstsFeedDownload: "project/newfeed"
-      vstsFeedPackageDownload: "cloudnautic-tools"
-      versionOption: latestFromBranch
-      versionDownload: "main"
