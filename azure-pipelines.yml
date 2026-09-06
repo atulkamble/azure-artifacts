@@ -32,3 +32,8 @@ steps:
       vstsFeedPackage: "cloudnautic-tools"
       vstsPackageVersion: "*"
       downloadDirectory: "$(Build.ArtifactStagingDirectory)/download"
+
+  - script: |
+      echo "Downloaded package files:"
+      find "$(Build.ArtifactStagingDirectory)/download" -type f
+    displayName: Verify Download      
